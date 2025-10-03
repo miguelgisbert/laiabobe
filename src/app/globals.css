@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --coral-primary: #20b2aa;
+  --coral-light: #7dd3c0;
+  --coral-dark: #008b8b;
+  --little-prince-gold: #f4d03f;
+  --little-prince-sky: #87ceeb;
+}
+
+/* Custom styles for butterfly bullets */
+.butterfly-bullet {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.butterfly-bullet::before {
+  content: "🦋";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--coral-primary);
+  font-size: 0.875rem;
+}
+
+/* Smooth animations */
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Professional card hover effects */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(235, 107, 71, 0.15);
+}
+
+/* Elegant handwritten quote style */
+.handwritten-quote {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.2rem;
+  line-height: 1.4;
+  color: #4a5568;
+  text-align: center;
+}
