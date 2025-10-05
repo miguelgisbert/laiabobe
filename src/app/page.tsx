@@ -69,12 +69,10 @@ export default function Home() {
               />
             </div>
             <p className="text-xl text-coral-600 mb-4">
-              Intel·ligència emocional, Docent i Coach
+              Especialista en educació emocional, docent i coach
             </p>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Ajudo a les persones i els equips a desenvolupar el seu potencial
-              amb eines pràctiques i transformadores. Connecta amb les teves
-              emocions i impulsa el teu potencial.
+              Acompanyo persones i equips a potenciar i entrenar les seves competències emocionals perquè puguin assolir els canvis que es proposin i els mantinguin en el temps.
             </p>
           </div>
 
@@ -104,7 +102,7 @@ export default function Home() {
       <section id="about" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h3 className="text-3xl font-bold text-gray-800 mb-4">Qui sóc?</h3>
+            <h3 className="text-3xl font-bold text-gray-800 mb-4">Qui soc?</h3>
             <div className="w-20 h-1 bg-coral-500 mx-auto"></div>
           </div>
 
@@ -158,9 +156,7 @@ export default function Home() {
       <section className="py-16 bg-gradient-to-r from-little-prince-sky/20 to-coral-100">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <blockquote className="handwritten-quote mb-4">
-            &ldquo;Justo cuando la oruga pensó que el mundo se acababa,
-            <br />
-            se convirtió en mariposa.&rdquo;
+            &ldquo;Just quan l'oruga va pensar que el món s'acabava, <br/> es va convertir en papallona&rdquo;
           </blockquote>
         </div>
       </section>
