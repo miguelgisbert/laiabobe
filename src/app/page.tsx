@@ -117,11 +117,11 @@ export default function Home() {
                 Laia Bobé
               </h4>
               <p className="text-gray-600 mb-6">
-                Docent de secundària Màster en Formació del Professorat per la
-                Universitat Oberta de Catalunya i la Universitat Pompeu Fabra.
+                Docent de secundària (Màster en Formació del Professorat per la
+                Universitat Oberta de Catalunya i la Universitat Pompeu Fabra).
               </p>
               <p className="text-gray-600 mb-6">
-                Especialista en educació emocional (Postgrau en Educació
+                Especialista en Educació Emocional (Postgrau en Educació
                 Emocional i Benestar per la Universitat de Barcelona).
               </p>
               <p className="text-gray-600 mb-8">
