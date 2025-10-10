@@ -64,3 +64,44 @@
   color: #4a5568;
   text-align: center;
 }
+
+/* Custom styles for testimonial details */
+.testimonial-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-details summary {
+  list-style: none;
+  position: relative;
+  padding-left: 1.5rem;
+  cursor: pointer;
+  order: 2; /* Força el summary a aparèixer després del contingut */
+  margin-top: auto;
+}
+
+.testimonial-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.testimonial-details summary::before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--coral-primary);
+  transition: transform 0.3s ease;
+  font-size: 0.875rem;
+}
+
+.testimonial-details[open] summary::before {
+  transform: rotate(-90deg);
+}
+
+.testimonial-details summary:hover {
+  color: var(--coral-dark);
+}
+
+.testimonial-details > div {
+  order: 1; /* Força el contingut a aparèixer abans del summary */
+}
