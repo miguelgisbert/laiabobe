@@ -304,7 +304,7 @@ export default function Home() {
                   alt="Remei"
                   width={60}
                   height={60}
-                  className="rounded-full object-cover"
+                  className="rounded-full object-cover w-15 h-15 aspect-square"
                 />
                 <div className="ml-4">
                   <h4 className="text-lg font-semibold text-gray-800">Remei</h4>
@@ -381,7 +381,7 @@ export default function Home() {
                   alt="Laia"
                   width={60}
                   height={60}
-                  className="rounded-full object-cover"
+                  className="rounded-full object-cover w-15 h-15 aspect-square"
                 />
                 <div className="ml-4">
                   <h4 className="text-lg font-semibold text-gray-800">Laia</h4>
@@ -429,7 +429,7 @@ export default function Home() {
                   alt="Cira"
                   width={60}
                   height={60}
-                  className="rounded-full object-cover"
+                  className="rounded-full object-cover w-15 h-15 aspect-square"
                 />
                 <div className="ml-4">
                   <h4 className="text-lg font-semibold text-gray-800">Cira</h4>
@@ -492,7 +492,7 @@ export default function Home() {
                   alt="Elena"
                   width={60}
                   height={60}
-                  className="rounded-full object-cover"
+                  className="rounded-full object-cover w-15 h-15 aspect-square"
                 />
                 <div className="ml-4">
                   <h4 className="text-lg font-semibold text-gray-800">Elena</h4>
@@ -538,7 +538,7 @@ export default function Home() {
                   alt="Yago"
                   width={60}
                   height={60}
-                  className="rounded-full object-cover"
+                  className="rounded-full object-cover w-15 h-15 aspect-square"
                 />
                 <div className="ml-4">
                   <h4 className="text-lg font-semibold text-gray-800">Yago</h4>
@@ -583,7 +583,7 @@ export default function Home() {
                   alt="Franco"
                   width={60}
                   height={60}
-                  className="rounded-full object-cover"
+                  className="rounded-full object-cover w-15 h-15 aspect-square"
                 />
                 <div className="ml-4">
                   <h4 className="text-lg font-semibold text-gray-800">
