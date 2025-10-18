@@ -36,24 +36,12 @@ export default function Navigation() {
             >
               Sobre mi
             </Link>
-            {/* <Link
-              href="#services"
-              className="text-gray-700 hover:text-coral-500 transition-colors"
-            >
-              Formacions
-            </Link> */}
             <Link
               href="#testimonials"
               className="text-gray-700 hover:text-coral-500 transition-colors"
             >
               Testimonis
             </Link>
-            {/* <Link
-              href="/blog"
-              className="text-gray-700 hover:text-coral-500 transition-colors"
-            >
-              Blog
-            </Link> */}
             <Link
               href="#contact"
               className="text-gray-700 hover:text-coral-500 transition-colors"
@@ -109,25 +97,11 @@ export default function Navigation() {
                 Sobre mi
               </Link>
               <Link
-                href="#services"
-                className="text-gray-700 hover:text-coral-500 transition-colors py-2"
-                onClick={() => setIsOpen(false)}
-              >
-                Formacions
-              </Link>
-              <Link
                 href="#testimonials"
                 className="text-gray-700 hover:text-coral-500 transition-colors py-2"
                 onClick={() => setIsOpen(false)}
               >
                 Testimonis
-              </Link>
-              <Link
-                href="/blog"
-                className="text-gray-700 hover:text-coral-500 transition-colors py-2"
-                onClick={() => setIsOpen(false)}
-              >
-                Blog
               </Link>
               <Link
                 href="mailto:contactar@laiabobe.com"
