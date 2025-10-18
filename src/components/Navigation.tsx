@@ -36,24 +36,24 @@ export default function Navigation() {
             >
               Sobre mi
             </Link>
-            <Link
+            {/* <Link
               href="#services"
               className="text-gray-700 hover:text-coral-500 transition-colors"
             >
               Formacions
-            </Link>
+            </Link> */}
             <Link
               href="#testimonials"
               className="text-gray-700 hover:text-coral-500 transition-colors"
             >
               Testimonis
             </Link>
-            <Link
+            {/* <Link
               href="/blog"
               className="text-gray-700 hover:text-coral-500 transition-colors"
             >
               Blog
-            </Link>
+            </Link> */}
             <Link
               href="#contact"
               className="text-gray-700 hover:text-coral-500 transition-colors"
