@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Navigation() {
@@ -13,9 +14,17 @@ export default function Navigation() {
           <div className="flex items-center">
             <Link
               href="/"
-              className="text-2xl font-bold text-coral-600 hover:text-coral-700"
+              aria-label="Inici - Laia Bobé"
+              className="flex items-center"
             >
-              Laia Bobé
+              <Image
+                src="/images/logoBlau.png"
+                alt="Laia Bobé"
+                width={120}
+                height={40}
+                className="h-10 w-auto"
+                priority
+              />
             </Link>
           </div>
 
@@ -58,6 +67,9 @@ export default function Navigation() {
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-700 hover:text-coral-500 focus:outline-none"
+              aria-label={isOpen ? "Tanca el menú" : "Obre el menú"}
+              aria-expanded={isOpen}
+              aria-controls="mobile-menu"
             >
               <svg
                 className="h-6 w-6"
@@ -87,7 +99,7 @@ export default function Navigation() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden pb-4">
+          <div id="mobile-menu" className="md:hidden pb-4">
             <div className="flex flex-col space-y-2">
               <Link
                 href="#about"
@@ -118,7 +130,7 @@ export default function Navigation() {
                 Blog
               </Link>
               <Link
-                href="#contact"
+                href="mailto:contactar@laiabobe.com"
                 className="text-gray-700 hover:text-coral-500 transition-colors py-2"
                 onClick={() => setIsOpen(false)}
               >

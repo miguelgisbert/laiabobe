@@ -1,58 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import Navigation from "@/components/Navigation";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-coral-50 to-little-prince-sky/20">
       {/* Navigation */}
-      <nav className="bg-white/90 backdrop-blur-sm shadow-sm sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <div className="flex items-center">
-              <Image
-                src="/images/logoBlau.png"
-                alt="Laia Bobé"
-                width={120}
-                height={40}
-                className="h-10 w-auto"
-                priority
-              />
-            </div>
-            <div className="hidden md:flex space-x-8">
-              <Link
-                href="#about"
-                className="text-gray-700 hover:text-coral-500 transition-colors"
-              >
-                Sobre mi
-              </Link>
-              <Link
-                href="#services"
-                className="text-gray-700 hover:text-coral-500 transition-colors"
-              >
-                Formacions
-              </Link>
-              <Link
-                href="#testimonials"
-                className="text-gray-700 hover:text-coral-500 transition-colors"
-              >
-                Testimonis
-              </Link>
-              {/* <Link
-                href="#blog"
-                className="text-gray-700 hover:text-coral-500 transition-colors"
-              >
-                Blog
-              </Link> */}
-              <Link
-                href="mailto:contactar@laiabobe.com"
-                className="text-gray-700 hover:text-coral-500 transition-colors"
-              >
-                Contacte
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Navigation />
 
       {/* Hero Section */}
       <section className="py-20 px-4">
@@ -286,12 +240,13 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
             <h3 className="text-3xl font-bold text-gray-800 mb-4">
-              Testimonis
+              Veus que inspiren
             </h3>
             <div className="w-20 h-1 bg-coral-500 mx-auto mb-8"></div>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto max-w-xl">
-              La transformació personal és real. Aquestes són les paraules de
-              persones que han viscut l'experiència de créixer emocionalment.
+              Persones que, a través del coaching i l’educació emocional, han
+              descobert noves maneres de créixer i relacionar-se amb el que
+              senten i amb els altres.
             </p>
           </div>
 
@@ -433,7 +388,7 @@ export default function Home() {
                 />
                 <div className="ml-4">
                   <h4 className="text-lg font-semibold text-gray-800">Cira</h4>
-                  <p className="text-coral-600 text-sm">Participant formació</p>
+                  <p className="text-coral-600 text-sm">Alumna</p>
                 </div>
               </div>
               <div className="text-gray-600 flex-grow flex flex-col">
@@ -496,7 +451,9 @@ export default function Home() {
                 />
                 <div className="ml-4">
                   <h4 className="text-lg font-semibold text-gray-800">Elena</h4>
-                  <p className="text-coral-600 text-sm">Projecte Singulars</p>
+                  <p className="text-coral-600 text-sm">
+                    Alumna del Projecte Singulars
+                  </p>
                 </div>
               </div>
               <div className="text-gray-600 flex-grow flex flex-col">
@@ -542,7 +499,9 @@ export default function Home() {
                 />
                 <div className="ml-4">
                   <h4 className="text-lg font-semibold text-gray-800">Yago</h4>
-                  <p className="text-coral-600 text-sm">Universitat</p>
+                  <p className="text-coral-600 text-sm">
+                    Universitat Abat Oliba
+                  </p>
                 </div>
               </div>
               <div className="text-gray-600 flex-grow flex flex-col">
