@@ -18,7 +18,7 @@ export default function Navigation() {
               className="flex items-center"
             >
               <Image
-                src="/images/logoBlau.png"
+                src="/images/logoCoral.svg"
                 alt="Laia Bobé"
                 width={120}
                 height={40}

@@ -14,7 +14,7 @@ export default function Home() {
           <div className="mb-8">
             <div className="flex justify-center mb-6">
               <Image
-                src="/images/logoLila.png"
+                src="/images/logoCoral.svg"
                 alt="Laia Bobé Logo"
                 width={400}
                 height={150}
