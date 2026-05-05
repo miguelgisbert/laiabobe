@@ -4,6 +4,7 @@ import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import ContactModal from "@/components/ContactModal";
+import InstagramSection from "@/components/InstagramSection";
 
 export default function QuiSocPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -87,6 +88,7 @@ export default function QuiSocPage() {
             </div>
           </section>
         </main>
+        <InstagramSection />
         <Footer />
       </div>
       <ContactModal

@@ -6,6 +6,7 @@ import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import ContactModal from "@/components/ContactModal";
+import InstagramSection from "@/components/InstagramSection";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -640,6 +641,7 @@ export default function Home() {
           </div>
         </section>
 
+        <InstagramSection />
         <Footer />
       </main>
       <ContactModal
